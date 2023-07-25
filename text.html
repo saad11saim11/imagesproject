@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+        body {
+            background-color: #000;
+        }
+
+        .animated-section {
+            height: 6000px;
+        }
+
+        .animated-container {
+            position: sticky;
+            top: 0;
+        }
+
+        .animated-background-text p {
+            color: #878C97;
+        }
+
+        .animated-content p {
+            color: #fff;
+            height: 20px;
+            overflow: hidden;
+        }
+
+        .animated-content {
+            position: absolute;
+            top: -16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animated-section">
+        <div class="animated-container">
+            <div class="animated-background-text">
+                <p>
+                    Les 1,1 million de nouvelles entreprises qui se créent chaque année le savent aussi. Alors vous vous
+                    battez pour leurs 8 secondes d’attention disponibles. Et vous pataugez dans un océan rouge de
+                    concurrence.
+                </p>
+            </div>
+
+            <div class="animated-content">
+                <p class="text" data-500="width:2%; opacity:0;" data-1500="width:100%; opacity:1;">
+                    Les 1,1 million de nouvelles entreprises qui</p>
+                <p class="text" data-1000="width:2%; opacity:0;" data-2500="width:100%; opacity:1;">
+                    se créent chaque année le savent aussi.</p>
+                <p class="text" data-2000="width:2%; opacity:0;" data-3500="width:100%; opacity:1;">
+                    Alors vous vous battez pour leurs 8 </p>
+                <p class="text" data-3000="width:2%; opacity:0;" data-4500="width:100%; opacity:1;">
+                    secondes d'attention disponibles. Et vous</p>
+                <p class="text credit" data-4000="width:2%; opacity:0;" data-5500="width:100%; opacity:1;">
+                    pataugez dans un océan rouge de</p>
+                <p class="text credit" data-4000="width:2%; opacity:0;" data-5500="width:100%; opacity:1;">
+                    concurrence.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script>
+        skrollr.init();
+    </script>
+</body>
+
+</html>
+
+
+.header-button a.elementor-button-link.elementor-button.elementor-size-sm {
+    background: linear-gradient(263.53deg, #9bfeb1 21.22%, #b7fda3 73.36%);
+}
+span.main-heading {
+	
+   background: -webkit-linear-gradient(263.53deg, #9bfeb1 21.22%, #b7fda3 73.36%) !important;
+	-webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+	    font-style: italic;
+}
+
+span.main-head {
+    color: #878C97;
+    font-family: 'plusjakartadisplay';
+	font-weight:700 !important
+}
+
+.header-button button.elementor-button.elementor-size-md {
+	
+	 background: linear-gradient(263.53deg, #9bfeb1 21.22%, #b7fda3 73.36%);
+}
+
+
+
+.animated-content p {
+    color: #fff !important;
+}
+
+
+
+.a-1 {
+    left: 12.86vw !important;
+    top: calc(80% - 5.76vw) !important;
+   
+}
+.a-2 {
+    left: 26.64vw !important;
+    top: calc(80% - -1.81vw) !important;
+}
+.a-3 {
+    left: 34.04vw !important;
+    top: 1vw !important;
+}
+.a-4 {
+    left: 42.83vw !important;
+    top: calc(80% - 6.76vw) !important;
+}
+.a-5 {
+    left: 46.9vw !important;
+    top: 5vw !important;
+}
+.a-6 {
+    left: 10vw !important;
+    top: 4vw !important;
+}
+
+
+
+.social-col .a-1, .social-col .a-2, .social-col .a-3, .social-col .a-4, .social-col .a-5, .social-col .a-6{
+	transition: transform 1.5s cubic-bezier(0.85, 0, 0.15, 1) !important;
+}
+.social-col .elementor-widget-container, .social-col img {
+    height: 100% !important;
+}
+.social-col:hover .a-1 {
+    -webkit-transform: translate3d(2.68vw, -11.96vw, 0);
+    transform: translate3d(-11.32vw, -11.96vw, 0);
+}
+.social-col:hover .a-2 {
+    transform: translate3d(-22.88vw, 0.56vw, 0);
+}
+.social-col:hover .a-3 {
+    -webkit-transform: translate3d(-3.69vw, -9.05vw, 0);
+    transform: translate3d(15.31vw, -1.05vw, 0);
+}
+.social-col:hover .a-4 {
+    -webkit-transform: translate3d(-0.83vw, 14.94vw, 0);
+    transform: translate3d(7.17vw, 7.94vw, 0);
+}
+.social-col:hover .a-5 {
+    -webkit-transform: translate3d(13.57vw, -8.04vw, 0);
+    transform: translate3d(9.2vw, 8.96vw, 0);
+}
+.social-col:hover .a-6 {
+    -webkit-transform: translate3d(13.57vw, 8.04vw, 0);
+    transform: translate3d(14.2vw, -3.04vw, 0);
+}
+
+@media(max-width:999px){
+	h2{
+		font-size:26px!important;
+	}
+	.t_center{
+		text-align:center!important;
+		padding-left:0.5%!important;
+		padding-right:0.5%!important;
+	}
+	.nectar-cta[data-alignment=left] {
+    text-align: center;
+}
+	.wprevpro_avatarimg{
+		width:70%!important;
+		margin:auto!important;
+		padding-bottom:5%!important;
+	}
+}
+
+@media (max-width: 767px){
+.elementor-8802 .elementor-element.elementor-element-fb407fb .elementor-heading-title {
+    font-size: 40px;
+    line-height: 1em;
+}
+
+
+
+.custom-footer h2.elementor-heading-title.elementor-size-default {
+    font-size: 32px !important;
+    line-height: 39px !important;
+    padding: 44px !important;
+}
+}
